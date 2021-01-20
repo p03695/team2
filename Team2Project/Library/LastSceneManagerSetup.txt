@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/SampleScenes/Scenes/RollerBall.unity
+- path: Assets/Dnk_Dev/HospitalHorrorPack/Map_Hosp1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
