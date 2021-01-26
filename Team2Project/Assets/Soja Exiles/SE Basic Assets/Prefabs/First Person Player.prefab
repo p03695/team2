@@ -257,8 +257,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1927095933604403119}
+  - component: {fileID: 1927095933604403114}
   - component: {fileID: 1927095933604403113}
-  - component: {fileID: 4834554579509821446}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -280,6 +280,14 @@ Transform:
   m_Father: {fileID: 1927095934725912877}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &1927095933604403114
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927095933604403118}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &1927095933604403113
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -319,21 +327,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &4834554579509821446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1927095933604403118}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a49fe138bb0af2409331bf640306ba7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioClip:
-  - {fileID: 8300000, guid: 42e65e088b3f4374e851b8dbd38f3df9, type: 3}
-  - {fileID: 8300000, guid: 8bc94ec6ed537e743b481638bdcd503d, type: 3}
 --- !u!1 &1927095934725912876
 GameObject:
   m_ObjectHideFlags: 0
